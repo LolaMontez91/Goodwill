@@ -1,17 +1,28 @@
 {
-  "name": "Goodwill",
+  "name": "goodwill",
   "version": "1.0.0",
-  "description": "",
+  "description": "career center information checklist",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.4",
-    "express": "^4.17.1"
-  }
+    "ejs": "^2.7.1",
+    "express-partials": "^0.3.0",
+    "express": "^4.17.1",
+    "heroku": "^7.29.0",
+    "mongoose": "^5.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LolaMontez91/Goodwill.git"
+  },
+  "author": "Brianna Blair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LolaMontez91/Goodwill/issues"
+  },
+  "homepage": "https://github.com/LolaMontez91/Goodwill#readme"
 }
